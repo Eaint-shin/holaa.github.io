@@ -15,10 +15,9 @@ body{
 }
 .container{
     position: relative;
-    width: 600px;
+    width: 350px;
     height:400px;
     background: rgb(201, 142, 146) ; 
-   
     display:flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +65,7 @@ i{
 }
 h2{
     position: relative;
-    font-size:30px;
+    font-size:15px;
     color:rgb(201, 142, 146);
     margin:15px 0;
     -webkit-text-stroke:0.5vw rgb(181, 134, 138);
@@ -96,7 +95,7 @@ h2::before{
 }
 button{
     position:absolute;
-    width:150px;
+    width:100px;
     height:inherit;
     font-size: 1.2rem;
     font-weight: 600;
@@ -109,12 +108,12 @@ button{
    
 }
 button:nth-child(1){
-    margin-left: -200px;
+    margin-left: -100px;
     background:  rgb(210, 128, 133);
    
 }
 button:nth-child(2){
-    margin-right: -200px;
+    margin-right: -100px;
     color:  rgb(201, 142, 146);
 }
 
